@@ -1,3 +1,5 @@
+@use '../variables';
+
 .button {
     padding: 12px;
     font-size: 18px;
@@ -8,8 +10,8 @@
     //Para não ter quebra de linha, o white-space é nowrap
 
     &--primary {
-        color: #fff;
-        background-color: #4F2AC3;
+        color: variables.$textColor;
+        background-color: variables.$buttonColor;
         align-items: center;
     }
 
